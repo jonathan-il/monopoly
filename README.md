@@ -12,6 +12,13 @@ This repo is split in two different applications, the game itself and a game lau
 
 ## The Game
 
+### Quickstart
+ 1. Install caddy and set /set/caddy/Caddyfile as a reverse proxy set to 8443 or whatever port used
+ 2. install docker and setup non root docker user
+ 3. docker run -p "8443:8443" gonzague/monopoly
+ 4. sudo apt install npm
+ 5. clone the git repo and cd into game/client
+
 
 ### Run
 
